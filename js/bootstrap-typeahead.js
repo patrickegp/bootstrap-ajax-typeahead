@@ -107,7 +107,7 @@
                     this.options.onSelect({
                         value: value,
                         text: text
-                    });
+                    },  this.$element[0]);
                 }
             }
             return this.hide();
